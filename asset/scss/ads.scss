@@ -1,0 +1,53 @@
+.ads1, .ads2, .ads3 {
+    background-color: pink;
+}
+
+.ads1 {
+    width: 728px;
+    margin: 0px auto 0;
+
+    .title-ads {
+        text-align: center;
+        color: #AAAAAA;
+        font-size: 14px;
+        line-height: 22.4px;
+        font-family: Roboto-Regular;
+    }
+    .content-ads {
+        height: 90px;
+    }
+}
+
+.ads2 {
+    width: 970px;
+    margin: 30px auto 0;
+
+    .title-ads {
+        text-align: center;
+        color: #AAAAAA;
+        font-size: 14px;
+        line-height: 22.4px;
+        font-family: Roboto-Regular;
+    }
+
+    .content-ads {
+        height: 244px;
+    }
+}
+
+.ads3 {
+    width: 728px;
+    margin: 0 auto;
+
+    .title-ads {
+        text-align: center;
+        color: #AAAAAA;
+        font-size: 14px;
+        line-height: 22.4px;
+        font-family: Roboto-Regular;
+    }
+
+    .content-ads {
+        height: 90px;
+    }
+}
