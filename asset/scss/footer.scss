@@ -1,0 +1,88 @@
+footer {
+  margin-top: 54px;
+  .footer {
+    clear: both;
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 57px 0 28px;
+    .box-flex-footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 8px;
+      .box-footer {
+        margin: 0 44px 24px;
+        .title-header {
+          font-family: PlusJakartaSans-Bold;
+          font-size: 14px;
+          color: #000;
+          margin-bottom: 16px;
+          line-height: 22.4px;
+        }
+        .box-list {
+          display: flex;
+          .list-footer {
+            margin-right: 24px;
+            .text-footer,
+            .text-footer:visited,
+            .text-footer:link {
+              font-family: PlusJakartaSans-Regular;
+              font-size: 16px;
+              color: #212121;
+              line-height: 1.6;
+              margin-bottom: 8px;
+              display: block;
+              text-decoration: none;
+            }
+          }
+        }
+        &.logo-sosmed-footer {
+          .logo-okezone-footer {
+            background-image: url(../img/sprite.png);
+            width: 206px;
+            height: 47px;
+            background-size: 655px;
+            background-position: 4px -449px;
+            background-repeat: no-repeat;
+            margin: 0 auto 32px;
+            display: block;
+          }
+          .download-app {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 32px;
+            .play-store {
+              width: 105px;
+              height: 40px;
+              background-image: url(../img/sprite.png);
+              background-size: 655px;
+              background-repeat: no-repeat;
+              background-position: -300px -449px;
+              margin-right: 12px;
+            }
+            .app-store {
+              width: 105px;
+              height: 40px;
+              background-image: url(../img/sprite.png);
+              background-size: 655px;
+              background-repeat: no-repeat;
+              background-position: -416px -449px;
+            }
+          }
+          .logo-mnc-portal {
+            background-image: url(../img/sprite.png);
+            width: 206px;
+            height: 47px;
+            background-size: 655px;
+            background-position: 4px -449px;
+            background-repeat: no-repeat;
+            margin: 0 auto 32px;
+          }
+        }
+      }
+    }
+  }
+}
