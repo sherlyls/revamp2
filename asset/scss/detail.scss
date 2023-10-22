@@ -31,26 +31,10 @@
           font-family: PlusJakartaSans-Regular;
         }
       }
-      .img-article {
-        width: 100%;
-        margin-bottom: 16px;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-        .desc-foto {
-          margin-top: 8px;
-          font-family: PlusJakartaSans-Regular;
-          font-size: 14px;
-          line-height: 19.6px;
-          color: #aeaeae;
-          text-align: center;
-        }
-      }
       .fiture {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 16px;
         .size-font {
           display: flex;
           gap: 22px;
@@ -99,7 +83,7 @@
               display: flex;
               align-items: center;
               .text {
-                  font-family: PlusJakartaSans-Bold;
+                    
                   font-size: 16px;
                   line-height: 25.6px;
                   margin-right: 12px;
@@ -131,6 +115,62 @@
           }
         }
       }
+      .img-article {
+        margin: 0 auto 16px;
+        text-align: center;
+        img {
+        }
+        .desc-foto {
+          margin-top: 8px;
+          font-family: PlusJakartaSans-Regular;
+          font-size: 14px;
+          line-height: 19.6px;
+          color: #aeaeae;
+          text-align: center;
+        }
+      }
+      p {
+        padding-bottom: 20px;
+        font-family: PlusJakartaSans-Regular;
+        font-size: 16px;
+        line-height: 25.6px;
+      }
+    }
+    #baca-juga {
+      .text {
+        font-family: PlusJakartaSans-Bold;
+        font-size: 16px;
+        line-height: 25.6px;
+        &.baca {
+          color: #1D4595;
+          margin-bottom: 16px;
+        }
+      }
+      .group-baca {
+        display: flex;
+        margin-bottom: 24px;
+        .img-baca {
+          cursor: pointer;
+          width: 54px;
+          height: 54px;
+          display: block;
+          margin-right: 16px;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+          }
+        }
+        .title, .title:visited, .title:link {
+          color: #212121;
+          text-decoration: none;
+          width: calc(100% - 70px);
+        }
+      }
+    }
+    .brt-terkait {
+      
     }
   }
   
