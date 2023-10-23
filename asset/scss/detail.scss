@@ -136,7 +136,7 @@
         line-height: 25.6px;
       }
     }
-    #baca-juga {
+    #baca-juga, .brt-terkait {
       .text {
         font-family: PlusJakartaSans-Bold;
         font-size: 16px;
@@ -170,6 +170,16 @@
       }
     }
     .brt-terkait {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      .terkait {
+        img {
+          border-radius: 12px;
+        }
+
+      }
+
       
     }
   }

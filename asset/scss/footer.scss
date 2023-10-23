@@ -6,7 +6,7 @@ footer {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    padding: 57px 0 28px;
+    padding: 57px 0 80px;
     .box-flex-footer {
       display: flex;
       flex-wrap: wrap;
@@ -115,6 +115,13 @@ footer {
           }
         }
       }
+    }
+    .copyright {
+      font-family: PlusJakartaSans-Regular;
+      font-size: 14px;
+      line-height: 17.64px;
+      color: #565656;
+      text-align: center;
     }
   }
 }
